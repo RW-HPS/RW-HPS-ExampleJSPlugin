@@ -1,0 +1,8 @@
+{
+    "name": "example-plugin",
+    "author": "You",
+    "main": "index.js",
+    "description": "Example JS Plugin for RW-HPS.",
+    "version": "0.1.0",
+    "supportedVersions": ">= 3.0.0"
+  }

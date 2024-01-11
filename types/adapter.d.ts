@@ -1,0 +1,11 @@
+import { PlayerBanEvent, PlayerChatEvent } from './event';
+import { GameCommandActions, GameInternalUnits } from './game';
+import { PlayerHess } from './hess';
+import { AbstractNetConnectServer, ServerStatus } from './server';
+export declare function adaptPlayerChatEvent(obj: JavaInstanceTypeOf<'net.rwhps.server.game.event.game.PlayerChatEvent'>): PlayerChatEvent;
+export declare function adaptGameInternalUnits(obj: JavaInstanceTypeOf<'net.rwhps.server.game.enums.GameInternalUnits'>): GameInternalUnits;
+export declare function adaptGameCommandActions(obj: JavaInstanceTypeOf<'net.rwhps.server.game.enums.GameCommandActions'>): GameCommandActions;
+export declare function adaptServerStatus(obj: JavaInstanceTypeOf<'net.rwhps.server.net.core.DataPermissionStatus$ServerStatus'>): ServerStatus;
+export declare function adaptAbstractNetConnectServer(obj: JavaInstanceTypeOf<'net.rwhps.server.net.core.server.AbstractNetConnectServer'>): AbstractNetConnectServer;
+export declare function adaptPlayerHess(obj: JavaInstanceTypeOf<'net.rwhps.server.data.player.PlayerHess'>): PlayerHess;
+export declare function adaptPlayerBanEvent(obj: JavaInstanceTypeOf<'net.rwhps.server.game.event.game.PlayerBanEvent'>): PlayerBanEvent;
