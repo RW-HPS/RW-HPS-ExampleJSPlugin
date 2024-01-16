@@ -1,5 +1,6 @@
 {
   "name": "example-plugin",
+  "internalName": "example-plugin",
   "author": "You",
   "main": "index.js",
   "description": "Example JS Plugin for RW-HPS.",
