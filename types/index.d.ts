@@ -1,5 +1,6 @@
 import { createPlugin } from './plugin';
 import { Log } from './log';
-export { createPlugin, Log };
+import { HessModuleManage } from './hess';
+export { createPlugin, Log, HessModuleManage };
 declare const _default: unknown;
 export default _default;

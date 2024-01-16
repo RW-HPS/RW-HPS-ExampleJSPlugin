@@ -48,6 +48,16 @@ export interface Events {
     ServerHessStartPort: ServerHessStartPort;
 }
 export type EventType = keyof Events;
+/**
+ * 事件管理
+ *
+ * 用于注册和管理所有事件
+ */
 export interface EventManage {
+    /**
+     * 注册事件监听
+     * @param type 事件类型
+     * @param consumer 事件处理器
+     */
     registerListener<T extends EventType>(type: T, consumer: (v: Events[T]) => void): void;
 }
