@@ -1,0 +1,17 @@
+{
+  "name": "rw-hps-example-js-plugin",
+  "version": "0.1.0",
+  "description": "A example js plugin for RW-HPS.",
+  "type": "module",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zerodegress@RW-HPS",
+  "license": "MIT",
+  "devDependencies": {
+    "rw-hps-jslib": "^0.1.2"
+  }
+}

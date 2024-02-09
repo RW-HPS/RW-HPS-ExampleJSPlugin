@@ -1,23 +1,18 @@
 {
-    "compilerOptions": {
-      "target": "es2022",
-      "module": "ESNext",
-      "moduleResolution": "classic",
-      "strict": true,
-      "skipLibCheck": true,
-      "lib": [
-        "ESNext"
-      ],
-      "paths": {
-        "jslib": [
-          "./types/index.d.ts"
-        ]
-      }
-    },
-    "include": [
-      "./**/*.js",
-    ],
-    "exclude": [
-      "node_modules"
-    ],
-  }
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ESNext"
+    ]
+  },
+  "include": [
+    "*.js",
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}
